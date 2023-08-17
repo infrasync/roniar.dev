@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import "./styles.css"
 import Image from "next/image"
 
@@ -16,13 +17,13 @@ export const InfiniteClientLogo = (props: Props) => {
       <h1 className="text-center text-3xl font-extrabold">
         My Contribution & Impact
       </h1>
-      <div className="logos border-1 flex flex-row gap-32 rounded-lg border-white bg-white/30 drop-shadow-lg backdrop-blur-lg">
+      <div className="logos border-1 flex flex-row gap-32 rounded-lg border-white bg-white/20 drop-shadow-lg backdrop-blur-lg">
         <div className="logos-slide  flex flex-row gap-12 ">
           {props.data.map((item, index) => (
-            <Image src={item.image} className="h-20" alt={item.alt} />
+            <img src={item.image} className="h-20" alt={item.alt} />
           ))}
           {props.data.map((item, index) => (
-            <Image src={item.image} className="h-20" alt={item.alt} />
+            <img src={item.image} className="h-20" alt={item.alt} />
           ))}
         </div>
       </div>
