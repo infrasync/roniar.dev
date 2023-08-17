@@ -10,9 +10,9 @@ import { ThemeToggle } from "@/components/theme-toggle"
 export function SiteHeader() {
   return (
     <header className="sticky  top-0 z-40 w-full border-b bg-background/75 backdrop-blur-lg">
-      <div className="container flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
+      <div className="flex w-full flex-row justify-between px-8  py-2 md:py-4">
         <MainNav items={siteConfig.mainNav} />
-        <div className="flex flex-1 items-center justify-end space-x-4">
+        <div className="hidden flex-1 items-center justify-end space-x-4 md:visible md:flex">
           <nav className="flex items-center space-x-1">
             <Link
               href={siteConfig.links.github}
@@ -61,6 +61,9 @@ export function SiteHeader() {
             </Link>
             <ThemeToggle />
           </nav>
+        </div>
+        <div className="visible md:hidden">
+          <ThemeToggle />
         </div>
       </div>
     </header>
