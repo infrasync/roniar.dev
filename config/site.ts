@@ -15,6 +15,6 @@ export const siteConfig = {
     twitter: "https://twitter.com/infrasync",
     github: "https://github.com/infrasync",
     docs: "https://ui.shadcn.com",
-    linkedin: "https://www.linkedin.com/in/roni-ardiyanto/",
+    linkedin: "https://www.linkedin.com/in/roniardiyanto/",
   },
 }
