@@ -2,6 +2,7 @@ export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
   name: "Roni Ardiyanto",
+  url: "https://roniar.dev",
   description:
     "Front-en dev by day, aspiring infra wizard by night. Always seeking new challenges and opportunities to learn..",
   mainNav: [
