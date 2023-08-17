@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     url: siteConfig.url,
     images: [
       {
-        url: `${siteConfig.url}/images/meta.jpg`,
+        url: `${siteConfig.url}/meta.jpg`,
         width: 1200,
         height: 630,
         alt: siteConfig.name,
