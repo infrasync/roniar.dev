@@ -29,6 +29,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: siteConfig.url,
+    title: siteConfig.name,
+    description: siteConfig.description,
     images: [
       {
         url: `${siteConfig.url}/meta.jpg`,
@@ -37,6 +39,10 @@ export const metadata: Metadata = {
         alt: siteConfig.name,
       },
     ],
+  },
+  twitter: {
+    title: siteConfig.name,
+    description: siteConfig.description,
   },
 }
 
