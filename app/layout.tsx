@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    title: siteConfig.name,
+    title: "Roni Ardiyanto - Software Developer",
     description: siteConfig.description,
     images: [
       {
