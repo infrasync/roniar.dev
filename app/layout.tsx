@@ -43,7 +43,15 @@ export const metadata: Metadata = {
   twitter: {
     title: siteConfig.name,
     description: siteConfig.description,
-    images: "/meta.jpg",
+    images: [
+      {
+        url: `/meta.jpg`,
+        width: 1200,
+        height: 630,
+        alt: siteConfig.name,
+      },
+    ],
+    card: "summary_large_image",
   },
 }
 
