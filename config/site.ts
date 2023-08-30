@@ -10,6 +10,22 @@ export const siteConfig = {
       title: "Home",
       href: "/",
     },
+    {
+      title: "Projects",
+      href: "/projects",
+    },
+    {
+      title: "Blog",
+      href: "/blog",
+    },
+    {
+      title: "Friends",
+      href: "/friends",
+    },
+    {
+      title: "Now",
+      href: "/now",
+    },
   ],
   links: {
     twitter: "https://twitter.com/infrasync",

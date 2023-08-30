@@ -26,6 +26,7 @@ export const InfiniteClientLogo = (props: Props) => {
             <img src={item.image} className="h-16 md:h-20" alt={item.alt} />
           ))}
         </div>
+        x
       </div>
     </section>
   )

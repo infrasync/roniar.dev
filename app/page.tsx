@@ -27,7 +27,7 @@ export default function IndexPage() {
         quantity={75}
       />
 
-      <div className="h-500 align-center md:align-start relative flex w-auto flex-col-reverse  items-center gap-4 rounded border bg-white/20 p-4 px-12 drop-shadow-lg backdrop-blur-lg before:absolute before:-bottom-2 before:-right-2 before:h-4 before:w-4 before:border-b before:border-r before:transition-all before:duration-300 before:ease-in-out after:absolute after:-left-2 after:-top-2 after:h-4 after:w-4 after:border-l after:border-t after:transition-all after:duration-300 after:ease-in-out hover:before:h-[calc(100%+16px)] hover:before:w-[calc(100%+16px)] hover:after:h-[calc(100%+16px)] hover:after:w-[calc(100%+16px)] dark:bg-black md:flex-row md:gap-2">
+      <div className="h-500 align-center md:align-start relative flex w-auto flex-col-reverse  items-center gap-4 rounded border bg-white/20 p-4 px-12 drop-shadow-lg backdrop-blur-lg before:absolute before:-bottom-2 before:-right-2 before:h-4 before:w-4 before:border-b before:border-r before:transition-all before:duration-300 before:ease-in-out after:absolute after:-left-2 after:-top-2 after:h-4 after:w-4 after:border-l after:border-t after:transition-all after:duration-300 after:ease-in-out hover:before:h-[calc(100%+16px)] hover:before:w-[calc(100%+16px)] hover:after:h-[calc(100%+16px)] hover:after:w-[calc(100%+16px)] dark:border-gray-100 dark:bg-black md:flex-row md:gap-2">
         <section className="flex flex-col items-center justify-center gap-2 md:items-start md:justify-start">
           <h1 className="text-center text-2xl font-extrabold leading-tight tracking-tighter md:text-left md:text-4xl">
             Software Developer

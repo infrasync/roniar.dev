@@ -12,7 +12,7 @@ export function SiteHeader() {
     <header className="sticky  top-0 z-40 w-full border-b bg-background/75 backdrop-blur-lg">
       <div className="flex w-full flex-row justify-between px-8  py-2 md:py-4">
         <MainNav items={siteConfig.mainNav} />
-        <div className="hidden flex-1 items-center justify-end space-x-4 md:visible md:flex">
+        <div className="hidden w-full flex-1 items-center justify-end space-x-4 md:visible md:flex">
           <nav className="flex items-center space-x-1">
             <Link
               href={siteConfig.links.github}
