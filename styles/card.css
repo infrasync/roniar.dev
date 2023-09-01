@@ -1,0 +1,32 @@
+.reflective-card {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.shine {
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.4), transparent);
+  opacity: 0;
+  transform: rotate(0deg) translate(-25%, -25%);
+  animation: shine-animation 2s infinite;
+}
+
+@keyframes shine-animation {
+  0%,
+  100% {
+    opacity: 0;
+    transform: rotate(0deg) translate(-25%, -25%);
+  }
+  50% {
+    opacity: 1;
+    transform: rotate(180deg) translate(-25%, -25%);
+  }
+}

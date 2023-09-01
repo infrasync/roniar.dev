@@ -15,14 +15,6 @@ export const siteConfig = {
       href: "/projects",
     },
     {
-      title: "Blog",
-      href: "/blog",
-    },
-    {
-      title: "Friends",
-      href: "/friends",
-    },
-    {
       title: "Now",
       href: "/now",
     },
