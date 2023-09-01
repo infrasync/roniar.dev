@@ -64,11 +64,16 @@ export default function IndexPage() {
           </div>
         </section>
         <section className="w-36 rounded-xl md:w-60">
-          <Image src={profileImage} alt="foto roni" className="rounded-xl" />
+          <Image
+            src={profileImage}
+            quality={65}
+            loading="lazy"
+            alt="foto roni"
+            className="rounded-xl"
+          />
         </section>
       </div>
       <InfiniteClientLogo data={clientList} />
-
       <Work />
       <Education />
     </section>
