@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import profileImage from "@/public/foto.jpeg"
+import profileImage from "@/public/photo.png"
 import {
   IconBrandGraphql,
   IconBrandNextjs,
