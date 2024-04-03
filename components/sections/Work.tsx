@@ -1,5 +1,3 @@
-"use client"
-
 import Link from "next/link"
 import {
   IconBrandGraphql,
@@ -11,7 +9,6 @@ import {
 
 import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
-import Particles from "@/components/particles"
 
 export default function Work() {
   return (
